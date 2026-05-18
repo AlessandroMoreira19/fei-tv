@@ -22,7 +22,7 @@ Uma das funcionalidades mais avançadas do projeto é a lógica de alternância 
 O banco de dados foi estruturado para garantir Integridade Referencial e alta performance em consultas complexas.
 
 3.1. Esquema de Tabelas
-Tabela	Principais Atributos	Função
+Tabela	- Principais - Atributos -	Função
  
 usuarios	id, login, senha	Armazena as credenciais de acesso.
 catalogo	id, titulo, tipo, genero, ano, capa	Repositório central de todos os conteúdos multimédia.

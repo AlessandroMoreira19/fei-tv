@@ -35,8 +35,8 @@ Para prevenir a inserção de dados inconsistentes, foram aplicadas Check Constr
 
 4. Considerações de UX e Performance
 O projeto aplica várias heurísticas de Nielsen:
-1.	Visibilidade do Estado do Sistema: Feedback visual imediato através de cores (Verde para Like, Amarelo para Favorito) e textos dinâmicos ("Curtido" vs "Curtir").
-2.	Prevenção de Erros: Tratamento de exceções (Try-Catch) em todas as operações de banco de dados e entrada de utilizador.
+4.1.	Visibilidade do Estado do Sistema: Feedback visual imediato através de cores (Verde para Like, Amarelo para Favorito) e textos dinâmicos ("Curtido" vs "Curtir").
+4.2.	Prevenção de Erros: Tratamento de exceções (Try-Catch) em todas as operações de banco de dados e entrada de utilizador.
 
 5. Conclusão
 O sistema FEI TV é uma solução completa que integra front-end Java de alto nível com um back-end robusto. A implementação bem-sucedida das listas de reações e favoritos demonstra a maturidade técnica do projeto em lidar com persistência de dados por utilizador e interfaces gráficas complexas.

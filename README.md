@@ -29,7 +29,7 @@ Uma das funcionalidades mais avançadas do projeto é a lógica de alternância 
 3. Arquitetura da Base de Dados (PostgreSQL)
 O banco de dados foi estruturado para garantir Integridade Referencial e alta performance em consultas complexas.
 
-3.1. Tabela
+3.1. Esquema de Tabela
 | Tabela | Principais Atributos | Função |
 | :--- | :--- | :--- |
 | usuarios | id, login, senha | Armazena as credenciais de acesso. |

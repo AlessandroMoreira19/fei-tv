@@ -56,5 +56,5 @@ O projeto aplica várias heurísticas de Nielsen:
 
 4.2.	Prevenção de Erros: Tratamento de exceções (Try-Catch) em todas as operações de banco de dados e entrada de utilizador.
 
-6. Conclusão
+5. Conclusão
 O sistema FEI TV é uma solução completa que integra front-end Java de alto nível com um back-end robusto. A implementação bem-sucedida das listas de reações e favoritos demonstra a maturidade técnica do projeto em lidar com persistência de dados por utilizador e interfaces gráficas complexas.

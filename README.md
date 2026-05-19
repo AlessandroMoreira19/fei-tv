@@ -1,5 +1,7 @@
 # Projeto FEITV Java
 
+Link do vídeo de apresentação: https://youtu.be/c6tYy0Z3pRQ
+
 1. Introdução
 O projeto FEI TV é uma aplicação desktop robusta desenvolvida para a catalogação, visualização e interação com conteúdos multimédia, incluindo filmes, séries e música. O software foi concebido sob os princípios da engenharia de software moderna, utilizando a linguagem Java para a lógica de aplicação e o PostgreSQL como sistema de gestão de base de dados relacional.
 
@@ -27,7 +29,15 @@ Uma das funcionalidades mais avançadas do projeto é a lógica de alternância 
 3. Arquitetura da Base de Dados (PostgreSQL)
 O banco de dados foi estruturado para garantir Integridade Referencial e alta performance em consultas complexas.
 
-3.1. Esquema de Tabelas
+3.1. Tabela
+| Tabela | Principais Atributos | Função |
+| :--- | :--- | :--- |
+| usuarios | id, login, senha | Armazena as credenciais de acesso. |
+| catalogo | id, titulo, tipo, genero, ano, capa | Repositório central de todos os conteúdos multimédia. |
+| reacoes | id_usuario, id_midia, valor | Gere os Likes (1), Deslikes (-1) e Neutros (0). |
+| favoritos | id_usuario, id_midia | Associação de N-para-N para itens marcados como favoritos. |
+
+3.2. Esquema de Tabelas
 Tabela	- Principais - Atributos -	Função
  
 usuarios	id, login, senha	Armazena as credenciais de acesso.

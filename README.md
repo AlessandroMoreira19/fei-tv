@@ -58,3 +58,20 @@ O sistema FEI TV é uma solução completa que integra front-end Java de alto n�
 2. Crie um novo banco de dados (ex: `feitv_db`):
    ```sql
    CREATE DATABASE feitv_db;
+   ```
+3. Execute o script SQL de criação (fornecido na pasta `database` ou equivalente do projeto) para gerar as tabelas `usuarios`, `catalogo`, `reacoes` e `favoritos`.
+
+### 6.3. Clonar o Repositório
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+cd SEU-REPOSITORIO
+```
+
+### 6.4. Configurar e Executar na IDE
+1. Abra a pasta do projeto na sua IDE preferida (Eclipse, IntelliJ IDEA, NetBeans, etc.).
+2. Adicione o driver JDBC do PostgreSQL ao `Build Path` ou `Libraries` do projeto (caso use Maven, adicione a dependência correspondente no `pom.xml`).
+3. Localize a classe de conexão (ex: `Conexao.java` ou `Database.java`) e atualize com as suas credenciais locais do banco:
+   - **URL:** `jdbc:postgresql://localhost:5432/feitv_db`
+   - **User:** seu_usuario
+   - **Password:** sua_senha
+4. Execute a classe principal da interface gráfica (geralmente `Main.java` ou `TelaLogin.java`) para iniciar o sistema.
